@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+header {
+	background-color: rgb(251, 251, 251);
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.navbar-toggler-icon {
+	background: url('../img/menu.png') no-repeat center;
+}
+
+header li {
+	margin-left: 1rem;
+	margin-top: 1rem;
+}
+
+#logo {
+	font-size: 0;
+    position: absolute;
+    width: 135px;
+	height: 23px;
+    top: 17px;
+    left: 20px;
+	background: url(../img/Logo.png) no-repeat center;
+}
+
+.navbar {
+    justify-content: flex-end;
+}
+
+.navbar button {
+    outline: none;
+}
+
+#uno {
+    background: url('../img/fondo-wave.png') no-repeat left;
+    background-size: cover;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+}
+
+#uno h2 {
+    font-size: 1.3rem;
+}
+
+#uno h3 {
+    font-size: 1rem;
+}
+
+.store {
+    margin-top: 1.5rem;
+}
+
+.store div:first-of-type {
+    padding-right: 0;    
+}
+
+.store div:last-of-type {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+#dos img {
+    width: 25%;
+}
+
+#dos .info {
+    background-color: rgb(221, 221, 221);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    width: 90%;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+p {
+    margin-bottom: 0;
+}
+
+#dos h4 {
+    font-weight: bold;
+}
+
+#dos p {
+    font-weight: 600;
+}
+
+#tres {
+    background: url(../img/fondo-wave-copia.png) no-repeat left;
+    background-size: cover;
+    color: white;
+}
+
+#tres .row {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+#tres h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#tres .aumento {
+    font-size: 1.5rem;
+    color: rgb(236, 26, 26);
+}
+
+#tres h3 {
+    font-size: 1.1rem;
+}
+
+#tres h4 {
+    font-size: 1rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#tres .celular-izquierda {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#tres .texto-derecha {
+    padding-left: 0;
+}
+
+#parallax { 
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: url(../img/fondo-parallax.png) no-repeat fixed center;
+    background-size: cover;
+}
+
+#parallax h2 {
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+}
+
+footer {
+    color: white;
+}
+
+footer h3 {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+
+#footer-arriba {
+    height: 162px;
+    background: url(../img/footer-arriba.png) no-repeat center;
+    background-size: cover;
+}
+
+#footer-abajo {
+    height: 150px;
+    background: url(../img/footer-abajo.png) no-repeat center;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+    #uno h2 {
+        font-size: 2.5rem;
+    }
+
+    #uno h3 {
+        font-size: 1.5rem;
+    }
+
+    #uno {
+        background: url(../img/fondo-wave_tablet.png) no-repeat center;
+        background-size: cover;
+    }
+    
+    .info:nth-child(odd) {
+        margin-right: 3.5rem;
+    }
+
+    #tres .aumento {
+        font-size: 2.5rem;
+    }
+
+    #tres h2 {
+        font-size: 1.5rem;
+    }
+
+    #tres h3 {
+        font-size: 1.3rem;
+    }
+
+    #tres h4 {
+        font-size: 1.1rem;
+    }
+
+    #footer-arriba {
+        background: url(../img/footer-arriba_tablet.png) no-repeat center;
+        background-size: cover;
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+
+    #footer-arriba h3 {
+        font-size: 2rem;
+    }
+
+    #footer-abajo {
+        background: url(../img/footer-abajo_tablet.png) no-repeat center;
+        background-size: cover;
+        height: 200px;
+    }
+
+    #footer-abajo p {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width:991px) {
+    header li {
+        margin-top: 0;
+    }
+
+    .navbar-collapse {
+        justify-content: center;
+    }
+
+    #uno > .row {
+        width: 80%;
+        margin: auto;
+    } 
+
+    #uno h2 {
+        font-size: 3rem;
+    }
+
+    #uno {
+        background: url(../img/fondo-wave_pc.png) no-repeat center;
+        background-size: cover;
+        height: 500px;
+    }
+
+    #dos {
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+    }
+
+    .info:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    .info {
+        margin: 2rem!important;
+    }
+
+    #tres {
+        background: url(../img/fondo-wave-copia_pc.png) no-repeat center;
+        background-size: cover;
+        height: 710px;
+    }
+
+    #tres .row {
+        padding-top: 7.5rem;
+    }
+
+    #tres .aumento {
+        font-size: 3.5rem;
+    }
+
+    #tres h2 {
+        font-size: 2.5rem;
+    }
+
+    #tres h3 {
+        font-size: 2rem;
+    }
+
+    #tres h4 {
+        font-size: 1.5rem;
+    }
+
+    #parallax {
+        background: url(../img/fondo-parallax_pc.png) no-repeat fixed center;
+        background-size: cover;
+        padding-top: 6rem;
+        padding-bottom: 10rem;
+    }
+
+    #parallax h2 {
+        margin-bottom: 4rem;
+        font-size: 2.5rem;
+    }
+
+    #footer-arriba {
+        background: url(../img/footer-arriba_pc.png) no-repeat center;
+        background-size: cover;
+        height: 250px;
+    }
+
+    #footer-abajo {
+        background: url(../img/footer-abajo_pc.png) no-repeat center;
+        background-size: cover;
+        height: 250px;
+    }
+}
